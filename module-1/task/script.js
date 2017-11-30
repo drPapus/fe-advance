@@ -17,8 +17,8 @@ var lstSmblThrdRow = thirdRow[thirdRow.length -1];
 var brackets = firstRow.indexOf('[');
 var brackets2 = firstRow.indexOf(']');
 
-//console.log(brackets);
-//console.log(brackets2);
+console.log(brackets);
+console.log(brackets2);
 
 document.write(`Первый символ первой строки это ${frstSymbol1str} <br/>
 Последний это знак ${lstSmblFirstRow} <br/>
