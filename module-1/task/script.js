@@ -8,11 +8,11 @@ document.write("Третья строка " + thirdRow.length  + " символ�
 
 
 var frstSymbol1str = firstRow.charAt(0);
-var lstSmblFirstRow = firstRow.substr(-1);
+var lstSmblFirstRow = firstRow[firstRow.length -1];
 var frstSymbol2str = secondRow.charAt(0);
-var lstSmblSecondRow = secondRow.substr(-1);
+var lstSmblSecondRow = secondRow[secondRow.length -1];
 var frstSymbol3str = thirdRow.charAt(0);
-var lstSmblThrdRow = thirdRow.substr(-1);
+var lstSmblThrdRow = thirdRow[thirdRow.length -1];
 
 var brackets = firstRow.indexOf('[');
 var brackets2 = firstRow.indexOf(']');
@@ -27,7 +27,7 @@ document.write(`Первый символ первой строки это ${frs
 Первый символ третьей строки это ${frstSymbol3str} <br/>
 Последний это знак ${lstSmblThrdRow} <br/>
 <br/>
-Поиск по строке ${firstRow} показал что, знаки [] занимают ${brackets} и ${brackets2} -ое место. 
+Поиск по строке первой показал что, знаки [] занимают ${brackets} и ${brackets2} -ое место. 
 ` );
 
 
