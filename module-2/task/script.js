@@ -1,11 +1,7 @@
 let participants = prompt('Введите количество путешественников', 'число');
-
 let sharm = 15;
 let hurgada = 25;
 let taba = 6;
-
-
-
  if (participants <= 0) {
     alert("Не верное значение!");
  } else if (parseInt(participants) != participants) {  // или вариант (Math.ceil(participants) - participants > 0)
